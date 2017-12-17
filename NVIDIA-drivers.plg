@@ -4,7 +4,7 @@
 <!DOCTYPE PLUGIN [
 	<!ENTITY name      "NVIDIA-drivers">
 	<!ENTITY author    "fubeca">
-	<!ENTITY version   "2017.12.16">
+	<!ENTITY version   "2017.12.17">
 	<!ENTITY repo      "https://raw.githubusercontent.com/&author;/nvidia-drivers/master">
 	<!ENTITY pluginURL "https://raw.githubusercontent.com/&author;/nvidia-drivers/master/NVIDIA-drivers.plg">
 	<!ENTITY plugin    "/boot/config/plugins/&name;">
@@ -19,6 +19,8 @@
 
 
 <CHANGES>
+### 2017.12.17
+- updated kernel package
 ### 2017.12.16
 - Inital release. includes:
  - nvidia-kernel drivers
@@ -138,8 +140,8 @@ Xn9p88567c+fGYvn7O/6m/gMGAP4PzcLkgi9KenIAAAAASUVORK5CYII=
 </INLINE>
 </FILE>
 
-<FILE Name="&plugin;/packages/nvidia-kernel-384.98_4.9.30-unRAID_x86_64-1.txz" Run="/sbin/upgradepkg --install-new">
-<URL>&repo;/packages/nvidia-kernel-384.98_4.9.30-unRAID_x86_64-1.txz</URL>
+<FILE Name="&plugin;/packages/nvidia-kernel-384.98_4.9.30-unRAID_x86_64-2.txz" Run="/sbin/upgradepkg --install-new">
+<URL>&repo;/packages/nvidia-kernel-384.98_4.9.30-unRAID_x86_64-2.txz</URL>
 <MD5>cef16fec35ef0c31d1aea1e187670f6f</MD5>
 </FILE>
 
