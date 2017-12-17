@@ -1,0 +1,166 @@
+<?xml version='1.0' standalone='yes'?>
+
+<!-- PLUGIN DEFINITIONS -->
+<!DOCTYPE PLUGIN [
+	<!ENTITY name      "NVIDIA-drivers">
+	<!ENTITY author    "fubeca">
+	<!ENTITY version   "2017.12.16">
+	<!ENTITY repo      "https://raw.githubusercontent.com/&author;/nvidia-drivers/master">
+	<!ENTITY pluginURL "https://raw.githubusercontent.com/&author;/nvidia-drivers/master/NVIDIA-drivers.plg">
+	<!ENTITY plugin    "/boot/config/plugins/&name;">
+	<!ENTITY emhttp    "/usr/local/emhttp/plugins/&name;">
+]>
+
+<PLUGIN  name="&name;"
+		 author="&author;"
+		 version="&version;"
+		 pluginURL="&pluginURL;"
+>
+
+
+<CHANGES>
+### 2017.12.16
+- Inital release. includes:
+ - nvidia-kernel drivers
+ - nvidia software package
+</CHANGES>
+
+
+<FILE Name="&emhttp;/README.md">
+<INLINE>
+**NVIDIA-drivers**
+
+Extra packages, mostly CLI, for advanced users.  Use at your own risk.  Not officially supported by LimeTech.
+
+Contains: NVIDIA kernel drivers and software
+</INLINE>
+</FILE>
+
+<FILE Name="&emhttp;/nvidia-icon.png" Type="base64">
+<INLINE>
+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
+</INLINE>
+</FILE>
+
+<FILE Name="&plugin;/packages/nvidia-kernel-384.98_4.9.30-unRAID_x86_64-1.txz" Run="/sbin/upgradepkg --install-new">
+<URL>&repo;/packages/nvidia-kernel-384.98_4.9.30-unRAID_x86_64-1.txz</URL>
+<MD5>cef16fec35ef0c31d1aea1e187670f6f</MD5>
+</FILE>
+
+<FILE Name="&plugin;/packages/nvidia-drivers-384.98_4.9.30-unRAID_x86_64-1.txz" Run="/sbin/upgradepkg --install-new">
+<URL>&repo;/packages/nvidia-drivers-384.98_4.9.30-unRAID_x86_64-1.txz</URL>
+<MD5>715eda999a3ad61b4ee5c337c441f896</MD5>
+</FILE>
+
+
+<!-- PLUGIN REMOVAL SCRIPT -->
+<FILE Run="/bin/bash" Method="remove">
+<INLINE>
+echo "+=============================================================================="
+echo "| Uninstalling NerdPack"
+echo "+=============================================================================="
+# Remove plugin related files
+rm -rf /usr/local/emhttp/plugins/&name;
+rm -rf &plugin;/packages
+
+echo ""
+echo "NVIDIA-drivers uninstalled.  All packages installed with NVIDIA-drivers will remain until your next system reboot."
+</INLINE>
+</FILE>
+</PLUGIN>
