@@ -3,8 +3,8 @@
 <!-- PLUGIN DEFINITIONS -->
 <!DOCTYPE PLUGIN [
 	<!ENTITY name      "NVIDIA-drivers">
-	<!ENTITY author    "fubeca">
-	<!ENTITY version   "2017.12.17">
+	<!ENTITY author    "ronaldreagan4prez">
+	<!ENTITY version   "2018.12.13">
 	<!ENTITY repo      "https://raw.githubusercontent.com/&author;/nvidia-drivers/master">
 	<!ENTITY pluginURL "https://raw.githubusercontent.com/&author;/nvidia-drivers/master/NVIDIA-drivers.plg">
 	<!ENTITY plugin    "/boot/config/plugins/&name;">
@@ -19,6 +19,8 @@
 
 
 <CHANGES>
+### 2018.12.13
+- updated md5 hash
 ### 2017.12.17
 - updated kernel package
 ### 2017.12.16
