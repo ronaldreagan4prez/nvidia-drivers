@@ -142,7 +142,7 @@ Xn9p88567c+fGYvn7O/6m/gMGAP4PzcLkgi9KenIAAAAASUVORK5CYII=
 
 <FILE Name="&plugin;/packages/nvidia-kernel-384.98_4.9.30-unRAID_x86_64-2.txz" Run="/sbin/upgradepkg --install-new">
 <URL>&repo;/packages/nvidia-kernel-384.98_4.9.30-unRAID_x86_64-2.txz</URL>
-<MD5>cef16fec35ef0c31d1aea1e187670f6f</MD5>
+<MD5>ec53f7da35b7b9054ad8d76577dc17b1</MD5>
 </FILE>
 
 <FILE Name="&plugin;/packages/nvidia-drivers-384.98_4.9.30-unRAID_x86_64-1.txz" Run="/sbin/upgradepkg --install-new">
